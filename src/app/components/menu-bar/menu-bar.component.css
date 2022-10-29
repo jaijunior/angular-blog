@@ -1,0 +1,10 @@
+.container_menuBar > ul{
+        display: flex;
+        flex-direction: row;
+}
+
+.container_menuBar > ul > li{
+    margin-right: 2rem;
+    list-style: none;
+}
+
