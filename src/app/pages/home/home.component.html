@@ -7,11 +7,24 @@
 
 <div class="container_articles">
     <div class="articles_main">
-        <app-big-card></app-big-card>
+        <app-big-card 
+        photoCover="https://www.elissalles.com.br/imagens/o-que-sao-direitos-autorais.jpg"
+        cardTitle="Esse é o título do BigCard"
+        cardDescription="Essa é a descrição do BigCard, esse projeto utiliza Angular">
+    </app-big-card>
     </div>
     <div class="article_others">
-        <app-small-card></app-small-card>
-        <app-small-card></app-small-card>
-        <app-small-card></app-small-card>
+    <app-small-card 
+        photoCover="https://res.cloudinary.com/dte7upwcr/image/upload/v1641830382/blog/blog2/imagens-sem-direitos-autorais/imagens-sem-direitos-autorais2.gif"
+        smallCardTitle="Esse é o título do card, ele faz parte do componente Small-Card"
+        >
+    </app-small-card>
+        <app-small-card
+            photoCover="https://www.zup.com.br/wp-content/uploads/2021/03/5e32dc5538c14b0d4b28f87f_imagens-angular3.png"
+            smallCardTitle="Esse projeto utiliza Angular, o que você acha disso?">
+        </app-small-card>
+        <app-small-card
+        photoCover="https://imagens.itforum.com.br/itforum.com.br/wp-content/uploads/2020/04/Essas-sao-as-5-distribuicoes-Linux-mais-indicada-para-uso-geral-1.jpg"
+        smallCardTitle="Eu desenvolvo usando LINUX, e qual sistema operacional você usa?"></app-small-card>
     </div>
 </div>
